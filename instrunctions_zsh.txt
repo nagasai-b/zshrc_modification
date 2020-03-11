@@ -1,0 +1,9 @@
+# Install zsh
+# Install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+# Install powerlevel99k
+git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+# Install nerdfonts
+# Change default font in terminal preferences to nerdfonts
+
+# Now change the zshrc contents with the config file
