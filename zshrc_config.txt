@@ -24,7 +24,7 @@ POWERLEVEL9K_VCS_UNTRACKED_BACKGROUND='yellow'
 POWERLEVEL9K_VCS_UNTRACKED_ICON='?'
 
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon context dir vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status dir_writable ip custom_wifi_signal ram load)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status virtualenv dir_writable ip custom_wifi_signal ram load)
 
 POWERLEVEL9K_TIME_BACKGROUND='white'
 POWERLEVEL9K_RAM_BACKGROUND='yellow'
@@ -103,6 +103,7 @@ POWERLEVEL9K_STATUS_CROSS=true
 plugins=(
 git
 osx
+virtualenv
 )
 
 source $ZSH/oh-my-zsh.sh
