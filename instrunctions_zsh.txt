@@ -3,7 +3,10 @@
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 # Install powerlevel99k
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
-# Install nerdfonts
+# Install nerdfonts - Look for option 4 using homebrew.
+brew tap homebrew/cask-fonts
+brew install font-hack-nerd-font 
 # Change default font in terminal preferences to nerdfonts
+# Change the font size too. (prefer 14)
 
 # Now change the zshrc contents with the config file
